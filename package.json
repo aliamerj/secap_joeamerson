@@ -53,7 +53,8 @@
         "dotenv": "4.0.0",
         "jszip": "3.7.1",
         "parse5": "5.0.0",
-        "restify": "^4.3.X"
+        "restify": "^4.3.X",
+        "supertest": "^6.2.2"
     },
     "scripts": {
         "cleanwin": "rmdir node_modules /s /q & del /f .yarnclean & exit 0",

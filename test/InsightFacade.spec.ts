@@ -77,7 +77,21 @@ describe("InsightFacade Add/Remove Dataset", function () {
     });
 
     // This is an example of a pending test. Add a callback function to make the test run.
-    it("Should remove the courses dataset");
+    it("Should remove the courses dataset", async () => {
+        const id: string = "courses";
+        let result: InsightResponse;
+        try {
+            result = await insightFacade.removeDataset(id);
+
+        } catch (error) {
+            result = error;
+
+        }  finally {
+
+            expect(result).to.equal(null);
+        }
+
+    });
 });
 
 // This test suite dynamically generates tests from the JSON files in test/queries.

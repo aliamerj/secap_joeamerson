@@ -55,7 +55,8 @@
         "jszip": "3.7.1",
         "parse5": "5.0.0",
         "restify": "^4.3.X",
-        "supertest": "^6.2.2"
+        "supertest": "^6.2.2",
+        "yarn": "^1.22.18"
     },
     "scripts": {
         "cleanwin": "rmdir node_modules /s /q & del /f .yarnclean & exit 0",
